@@ -94,8 +94,8 @@ exports.requestHandler = function (req, res) {
     }
   }
 
-  res.writeHead(404);
-  res.end('Not found');
+  res.writeHead(200);
+  res.end();
 };
 
 
